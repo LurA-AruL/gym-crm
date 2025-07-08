@@ -1,0 +1,146 @@
+{
+  "organizations": [
+    {
+      "id": "015b",
+      "orgName": "arul",
+      "slug": "arul-gym",
+      "email": "arulramalingam06@gmail.com",
+      "password": "123456",
+      "phone": "7094030845",
+      "address": "ajbcukabsk "
+    },
+    {
+      "id": "248b",
+      "orgName": "Pascale Howell",
+      "slug": "Vel",
+      "email": "qycyryho@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "phone": "+1 (864) 564-2908",
+      "address": "Iure delectus expli"
+    }
+  ],
+  "users": [],
+  "members": [
+    {
+      "status": "approved",
+      "id": "315d"
+    }
+  ],
+  "plans": [
+    {
+      "id": 1,
+      "name": "Monthly Plan",
+      "price": 1000,
+      "orgId": 1
+    },
+    {
+      "id": 2,
+      "name": "Annual Plan",
+      "price": 10000,
+      "orgId": 2
+    }
+  ],
+  "attendance": [],
+  "payments": [
+    {
+      "id": "pay101",
+      "memberId": "315d",
+      "orgId": "248b",
+      "amount": 1000,
+      "paid": true,
+      "type": "income",
+      "date": "2025-07-05",
+      "dueDate": "2025-07-05"
+    },
+    {
+      "id": "pay102",
+      "memberId": "315d",
+      "orgId": "248b",
+      "amount": 500,
+      "paid": false,
+      "type": "income",
+      "date": "2025-07-06",
+      "dueDate": "2025-07-07"
+    },
+    {
+      "id": "pay103",
+      "memberId": "315d",
+      "orgId": "248b",
+      "amount": 800,
+      "paid": true,
+      "type": "transfer",
+      "date": "2025-06-15",
+      "dueDate": "2025-06-15"
+    },
+    {
+      "id": "pay104",
+      "memberId": "315d",
+      "orgId": "248b",
+      "amount": 1200,
+      "paid": true,
+      "type": "income",
+      "date": "2025-07-01",
+      "dueDate": "2025-07-10"
+    },
+    {
+      "id": "pay105",
+      "memberId": "315d",
+      "orgId": "248b",
+      "amount": 600,
+      "paid": false,
+      "type": "income",
+      "date": "2025-07-07",
+      "dueDate": "2025-07-07"
+    },
+    {
+      "id": "pay106",
+      "memberId": "315d",
+      "orgId": "248b",
+      "amount": 700,
+      "paid": true,
+      "type": "income",
+      "date": "2024-12-20",
+      "dueDate": "2025-01-01"
+    },
+    {
+      "id": "pay107",
+      "memberId": "315d",
+      "orgId": "248b",
+      "amount": 900,
+      "paid": true,
+      "type": "expense",
+      "date": "2025-07-02",
+      "dueDate": "2025-07-03"
+    },
+    {
+      "id": "pay108",
+      "memberId": "315d",
+      "orgId": "248b",
+      "amount": 200,
+      "paid": false,
+      "type": "expense",
+      "date": "2025-07-03",
+      "dueDate": "2025-07-07"
+    },
+    {
+      "id": "pay109",
+      "memberId": "315d",
+      "orgId": "248b",
+      "amount": 950,
+      "paid": true,
+      "type": "transfer",
+      "date": "2025-06-12",
+      "dueDate": "2025-06-12"
+    },
+    {
+      "id": "pay110",
+      "memberId": "315d",
+      "orgId": "248b",
+      "amount": 1100,
+      "paid": true,
+      "type": "income",
+      "date": "2024-07-07",
+      "dueDate": "2024-07-07"
+    }
+  ]
+}
