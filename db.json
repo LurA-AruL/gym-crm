@@ -7,16 +7,25 @@
       "email": "arulramalingam06@gmail.com",
       "password": "123456",
       "phone": "7094030845",
-      "address": "ajbcukabsk "
+      "address": "Reddichavadi "
+    },
+    {
+      "id": "333b",
+      "orgName": "Vinoth Kumar",
+      "slug": "dot",
+      "email": "vinoth@gmail.com",
+      "password": "654321",
+      "phone": "7899877899",
+      "address": "Kattupalaiyam "
     },
     {
       "id": "248b",
-      "orgName": "Pascale Howell",
-      "slug": "Vel",
-      "email": "qycyryho@mailinator.com",
-      "password": "Pa$$w0rd!",
-      "phone": "+1 (864) 564-2908",
-      "address": "Iure delectus expli"
+      "orgName": "santhosh",
+      "slug": "ironman",
+      "email": "ironman@gmail.com",
+      "password": "123456",
+      "phone": "9898989898",
+      "address": "thavalakuppam"
     }
   ],
   "users": [],
