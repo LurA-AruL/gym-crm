@@ -2,7 +2,7 @@
   "organizations": [
     {
       "id": "015b",
-      "orgName": "arul",
+      "orgName": "arul manikandan",
       "slug": "arul-gym",
       "email": "arulramalingam06@gmail.com",
       "password": "123456",
@@ -21,6 +21,288 @@
   ],
   "users": [],
   "members": [
+    {
+      "id": "GYM-001",
+      "orgId": "248b",
+      "name": "Rahul Kumar",
+      "email": "rahul@example.com",
+      "phone": "+91 98765 43210",
+      "status": "active",
+      "join_date": "2023-10-01",
+      "fees_date": "2025-01-01",
+      "last_payment_date": "2025-07-06",
+      "next_payment_due_date": "2025-01-31",
+      "payment_status": "overdue",
+      "image": "https://randomuser.me/api/portraits/men/13.jpg",
+      "payments": [
+        {
+          "id": "pay101",
+          "orgId": "248b",
+          "date": "2025-07-05",
+          "dueDate": "2025-07-05",
+          "amount": 1000,
+          "status": "paid",
+          "type": "income"
+        },
+        {
+          "id": "pay102",
+          "orgId": "248b",
+          "date": "2025-07-06",
+          "dueDate": "2025-07-07",
+          "amount": 500,
+          "status": "overdue",
+          "type": "income"
+        }
+      ]
+    },
+    {
+      "id": "GYM-002",
+      "orgId": "015b",
+      "name": "Sneha Patel",
+      "email": "sneha@example.com",
+      "phone": "+91 98765 12345",
+      "status": "active",
+      "join_date": "2024-02-15",
+      "fees_date": "2025-01-01",
+      "last_payment_date": "2025-07-10",
+      "next_payment_due_date": "2025-01-31",
+      "payment_status": "overdue",
+      "image": "https://randomuser.me/api/portraits/women/21.jpg",
+      "payments": [
+        {
+          "id": "pay201",
+          "orgId": "015b",
+          "date": "2025-06-01",
+          "dueDate": "2025-06-01",
+          "amount": 1200,
+          "status": "paid",
+          "type": "income"
+        },
+        {
+          "id": "pay202",
+          "orgId": "015b",
+          "date": "2025-07-10",
+          "dueDate": "2025-07-12",
+          "amount": 300,
+          "status": "overdue",
+          "type": "expense"
+        },
+        {
+          "id": "pay87639",
+          "memberId": "GYM-002",
+          "orgId": "015b",
+          "amount": 0,
+          "type": "cash",
+          "date": "2025-07-14",
+          "dueDate": "2025-07-14",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "GYM-003",
+      "orgId": "248b",
+      "name": "Amit Singh",
+      "email": "amit@example.com",
+      "phone": "+91 98123 45678",
+      "status": "inactive",
+      "join_date": "2023-05-20",
+      "fees_date": "2025-01-01",
+      "last_payment_date": "2025-06-15",
+      "next_payment_due_date": "2025-01-31",
+      "payment_status": "overdue",
+      "image": "https://randomuser.me/api/portraits/men/45.jpg",
+      "payments": [
+        {
+          "id": "pay301",
+          "orgId": "248b",
+          "date": "2025-01-01",
+          "dueDate": "2025-01-01",
+          "amount": 500,
+          "status": "paid",
+          "type": "income"
+        },
+        {
+          "id": "pay302",
+          "orgId": "248b",
+          "date": "2025-06-15",
+          "dueDate": "2025-06-20",
+          "amount": 400,
+          "status": "overdue",
+          "type": "transfer"
+        }
+      ]
+    },
+    {
+      "id": "GYM-004",
+      "orgId": "015b",
+      "name": "Priya Sharma",
+      "email": "priya@example.com",
+      "phone": "+91 99999 88888",
+      "status": "active",
+      "join_date": "2025-03-01",
+      "fees_date": "2025-01-01",
+      "last_payment_date": "2025-07-10",
+      "next_payment_due_date": null,
+      "payment_status": "overdue",
+      "image": "https://randomuser.me/api/portraits/women/31.jpg",
+      "payments": [
+        {
+          "id": "pay401",
+          "orgId": "015b",
+          "date": "2025-06-25",
+          "dueDate": "2025-06-25",
+          "amount": 800,
+          "status": "paid",
+          "type": "income"
+        },
+        {
+          "id": "pay402",
+          "orgId": "015b",
+          "date": "2025-07-10",
+          "dueDate": "2025-07-10",
+          "amount": 950,
+          "status": "paid",
+          "type": "transfer"
+        }
+      ]
+    },
+    {
+      "id": "GYM-005",
+      "orgId": "248b",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "+91 88888 77777",
+      "status": "active",
+      "join_date": "2025-01-01",
+      "fees_date": "2025-01-01",
+      "last_payment_date": "2025-06-01",
+      "next_payment_due_date": "2025-01-31",
+      "payment_status": "overdue",
+      "image": "https://randomuser.me/api/portraits/men/32.jpg",
+      "payments": [
+        {
+          "id": "pay501",
+          "orgId": "248b",
+          "date": "2025-05-01",
+          "dueDate": "2025-05-05",
+          "amount": 950,
+          "status": "overdue",
+          "type": "income"
+        },
+        {
+          "id": "pay502",
+          "orgId": "248b",
+          "date": "2025-06-01",
+          "dueDate": "2025-06-01",
+          "amount": 1100,
+          "status": "paid",
+          "type": "income"
+        }
+      ]
+    },
+    {
+      "id": "GYM-006",
+      "orgId": "015b",
+      "name": "Meena Rani",
+      "email": "meena@example.com",
+      "phone": "+91 90909 10101",
+      "status": "inactive",
+      "join_date": "2024-12-12",
+      "fees_date": "2025-01-01",
+      "last_payment_date": "2025-07-13",
+      "next_payment_due_date": "2025-01-31",
+      "payment_status": "overdue",
+      "image": "https://randomuser.me/api/portraits/women/44.jpg",
+      "payments": [
+        {
+          "id": "pay601",
+          "orgId": "015b",
+          "date": "2025-07-12",
+          "dueDate": "2025-07-12",
+          "amount": 850,
+          "status": "paid",
+          "type": "income"
+        },
+        {
+          "id": "pay602",
+          "orgId": "015b",
+          "date": "2025-07-13",
+          "dueDate": "2025-07-15",
+          "amount": 400,
+          "status": "overdue",
+          "type": "expense"
+        }
+      ]
+    },
+    {
+      "id": "GYM-007",
+      "orgId": "248b",
+      "name": "Karan Mehta",
+      "email": "karan@example.com",
+      "phone": "+91 80808 60606",
+      "status": "active",
+      "join_date": "2024-06-06",
+      "fees_date": "2025-01-01",
+      "last_payment_date": "2025-07-12",
+      "next_payment_due_date": "2025-01-31",
+      "payment_status": "overdue",
+      "image": "https://randomuser.me/api/portraits/men/66.jpg",
+      "payments": [
+        {
+          "id": "pay701",
+          "orgId": "248b",
+          "date": "2025-07-10",
+          "dueDate": "2025-07-10",
+          "amount": 900,
+          "status": "paid",
+          "type": "transfer"
+        },
+        {
+          "id": "pay702",
+          "orgId": "248b",
+          "date": "2025-07-12",
+          "dueDate": "2025-07-13",
+          "amount": 750,
+          "status": "overdue",
+          "type": "income"
+        }
+      ]
+    },
+    {
+      "id": "GYM-008",
+      "orgId": "015b",
+      "name": "Ritika Singh",
+      "email": "ritika@example.com",
+      "phone": "+91 70707 50505",
+      "status": "active",
+      "join_date": "2025-04-04",
+      "fees_date": "2025-01-01",
+      "last_payment_date": "2025-07-14",
+      "next_payment_due_date": "2025-01-31",
+      "payment_status": "overdue",
+      "image": "https://randomuser.me/api/portraits/women/55.jpg",
+      "payments": [
+        {
+          "id": "pay801",
+          "orgId": "015b",
+          "date": "2025-06-15",
+          "dueDate": "2025-06-20",
+          "amount": 1000,
+          "status": "paid",
+          "type": "income"
+        },
+        {
+          "id": "pay802",
+          "orgId": "015b",
+          "date": "2025-07-14",
+          "dueDate": "2025-07-15",
+          "amount": 600,
+          "status": "overdue",
+          "type": "expense"
+        }
+      ]
+    }
   ],
   "plans": [
     {
@@ -36,107 +318,5 @@
       "orgId": 2
     }
   ],
-  "attendance": [],
-  "payments": [
-    {
-      "id": "pay101",
-      "memberId": "315d",
-      "orgId": "248b",
-      "amount": 1000,
-      "paid": true,
-      "type": "income",
-      "date": "2025-07-05",
-      "dueDate": "2025-07-05"
-    },
-    {
-      "id": "pay102",
-      "memberId": "315d",
-      "orgId": "248b",
-      "amount": 500,
-      "paid": false,
-      "type": "income",
-      "date": "2025-07-06",
-      "dueDate": "2025-07-07"
-    },
-    {
-      "id": "pay103",
-      "memberId": "315d",
-      "orgId": "248b",
-      "amount": 800,
-      "paid": true,
-      "type": "transfer",
-      "date": "2025-06-15",
-      "dueDate": "2025-06-15"
-    },
-    {
-      "id": "pay104",
-      "memberId": "315d",
-      "orgId": "248b",
-      "amount": 1200,
-      "paid": true,
-      "type": "income",
-      "date": "2025-07-01",
-      "dueDate": "2025-07-10"
-    },
-    {
-      "id": "pay105",
-      "memberId": "315d",
-      "orgId": "248b",
-      "amount": 600,
-      "paid": false,
-      "type": "income",
-      "date": "2025-07-07",
-      "dueDate": "2025-07-07"
-    },
-    {
-      "id": "pay106",
-      "memberId": "315d",
-      "orgId": "248b",
-      "amount": 700,
-      "paid": true,
-      "type": "income",
-      "date": "2024-12-20",
-      "dueDate": "2025-01-01"
-    },
-    {
-      "id": "pay107",
-      "memberId": "315d",
-      "orgId": "248b",
-      "amount": 900,
-      "paid": true,
-      "type": "expense",
-      "date": "2025-07-02",
-      "dueDate": "2025-07-03"
-    },
-    {
-      "id": "pay108",
-      "memberId": "315d",
-      "orgId": "248b",
-      "amount": 200,
-      "paid": false,
-      "type": "expense",
-      "date": "2025-07-03",
-      "dueDate": "2025-07-07"
-    },
-    {
-      "id": "pay109",
-      "memberId": "315d",
-      "orgId": "248b",
-      "amount": 950,
-      "paid": true,
-      "type": "transfer",
-      "date": "2025-06-12",
-      "dueDate": "2025-06-12"
-    },
-    {
-      "id": "pay110",
-      "memberId": "315d",
-      "orgId": "248b",
-      "amount": 1100,
-      "paid": true,
-      "type": "income",
-      "date": "2024-07-07",
-      "dueDate": "2024-07-07"
-    }
-  ]
+  "attendance": []
 }
